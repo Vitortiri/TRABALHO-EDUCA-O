@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Painel do Professor</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logout()">
+        <ion-icon name="log-out-outline"></ion-icon>
+        Sair
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Bem-vindo, {{ userName }}!</h1>
+  <p>Este é o painel do professor.</p>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Gerenciar Turmas</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Aqui você pode gerenciar suas turmas e atividades.</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
